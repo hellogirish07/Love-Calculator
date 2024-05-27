@@ -58,6 +58,7 @@ body {
 
 .names input {
     font-size: 20px;
+    color: palevioletred;
     border: none;
     border-bottom: 2px solid #000;
     background-color: transparent;
