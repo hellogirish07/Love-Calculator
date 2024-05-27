@@ -59,7 +59,7 @@ body {
 .names input {
     font-size: 20px;
     color: palevioletred;
-    fot-style: bold;
+    font-weight: bold;
     border: none;
     border-bottom: 2px solid #000;
     background-color: transparent;
