@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* background-image: url("pic.jpg"); */
+    background-color: palevioletred;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content-box {
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#calculate {
+    width: 150px;
+    height: 50px;
+    background-color: pink;
+    font-size: 20px0;
+    border-radius: 10px;
+}
+
+#calculate:hover {
+    background-color: palevioletred;
+}
+
+#result-percentage {
+    font-size: 90px;
+    color: palevioletred;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.names div {
+    margin: 5px;
+}
+
+.names label {
+    font-size: 20px;
+}
+
+.names input {
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    outline: none;
+}
+
+.heading-box h1 {
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.heading-box p {
+    font-size: 20px;
+}
+
+.result-box {
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 550px) {
+    #content-box {
+        max-width: 90%;
+        /* background-color: red; */
+    }
+
+    /* .names {
+        flex-direction: column;
+    } */
+}
